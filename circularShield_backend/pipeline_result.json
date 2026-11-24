@@ -1,0 +1,8 @@
+{
+    "prediction": 1,
+    "label": "fake",
+    "real_probability": 6.33,
+    "fake_probability": 93.67,
+    "confidence": 93.67,
+    "model": "Bilingual Linear SVC"
+}

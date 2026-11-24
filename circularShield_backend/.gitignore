@@ -1,0 +1,42 @@
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables
+.env
+.env.local
+
+# Private credentials
+credentials/
+
+# Uploaded files
+uploads/
+
+# Trained ML models
+models/
+*.pkl
+
+# IDE settings
+.vscode/
+
+# Logs
+*.log
+
+
+venv/
+__pycache__/
+*.pyc
+
+.env
+credentials/
+models/
+uploads/
+
+.pytest_cache/
+.vscode/

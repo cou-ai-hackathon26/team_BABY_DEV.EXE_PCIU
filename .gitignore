@@ -1,0 +1,142 @@
+
+# ==========================================
+# CircularShield - Global Git Ignore
+# React + Vite + Flask + MongoDB + Firebase
+# ==========================================
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+*.local
+.flaskenv
+
+# Firebase Credentials and Secrets
+credentials/
+secrets/
+firebase-admin.json
+firebase-adminsdk*.json
+*service-account*.json
+serviceAccountKey.json
+*.pem
+*.key
+
+# Python Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+# Python Cache and Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Node.js Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# React and Vite Build Files
+dist/
+dist-ssr/
+build/
+.vite/
+.vite-temp/
+.cache/
+
+# Machine Learning Models
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Machine Learning Datasets and Outputs
+datasets/
+data/raw/
+data/processed/
+checkpoints/
+outputs/
+results/
+.ipynb_checkpoints/
+
+# Uploaded Circulars and Generated Reports
+uploads/
+reports/
+generated_reports/
+extracted_files/
+temp/
+tmp/
+*.tmp
+
+# Flask Files
+instance/
+.webassets-cache/
+
+# Firebase Local Files
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Local Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python Build and Distribution
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage/
+.nyc_output/
+.tox/
+.mypy_cache/
+.ruff_cache/
+playwright-report/
+test-results/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE and Editor Files
+.vscode/
+.idea/
+.history/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.sw?
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary and Backup Files
+*.bak
+*.backup
+*.old
+*~

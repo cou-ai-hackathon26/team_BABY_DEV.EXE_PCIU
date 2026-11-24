@@ -1,0 +1,32 @@
+Scikit-learn version: 1.9.1
+Model loaded successfully!
+Model type: <class 'sklearn.pipeline.Pipeline'>
+Model classes: [0 1]
+
+-----------------------------
+Sample: English - Suspicious
+Text: Guaranteed job. Pay 500 taka registration fee.
+Prediction: 1
+Class 0: 24.94%
+Class 1: 75.06%
+
+-----------------------------
+Sample: English - Normal
+Text: Qualified candidates are invited to submit their CV.
+Prediction: 1
+Class 0: 43.46%
+Class 1: 56.54%
+
+-----------------------------
+Sample: Bangla - Suspicious
+Text: চাকরি পেতে ৫০০ টাকা রেজিস্ট্রেশন ফি প্রদান করুন।
+Prediction: 1
+Class 0: 26.79%
+Class 1: 73.21%
+
+-----------------------------
+Sample: Bangla - Normal
+Text: যোগ্য প্রার্থীদের জীবনবৃত্তান্তসহ আবেদন করতে হবে।
+Prediction: 0
+Class 0: 80.37%
+Class 1: 19.63%
